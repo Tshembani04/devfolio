@@ -13,6 +13,7 @@ import Ubu from "../src/public/Ubu.png";
 import web5 from "../src/public/web5.png";
 import web6 from "../src/public/web6.png";
 
+
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -32,7 +33,7 @@ function App() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="/Resume.pdf"
+                  href="/Tshembani Mhlongo's Resume.pdf"
                   download
                 >
                   Resume
