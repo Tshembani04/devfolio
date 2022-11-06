@@ -27,7 +27,7 @@ function App() {
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
+                  className=" cursor-pointer text-2xl "
                 />
               </li>
               <li>
@@ -101,15 +101,10 @@ function App() {
               <p className="text-gray-800 py-1">Javascript</p>
               <p className="text-gray-800 py-1">Typescript</p>
               <p className="text-gray-800 py-1">Solidity</p>
-              <p className="text-gray-800 py-1">Web3js</p>
-              <p className="text-gray-800 py-1">Moralis</p>
-              <p className="text-gray-800 py-1">HardHat</p>
               <p className="text-gray-800 py-1">Python</p>
-              <p className="text-gray-800 py-1">Rest Api</p>
-              <p className="text-gray-800 py-1">Loopback</p>
-              <p className="text-gray-800 py-1">MongoDB</p>
-              <p className="text-gray-800 py-1">Redis</p>
               <p className="text-gray-800 py-1">Firebase</p>
+              <p className="text-gray-800 py-1">Nodejs (Rest Api)</p>
+             
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <img src={code} width={100} height={100} />
@@ -121,9 +116,8 @@ function App() {
                 reality.
               </p>
               <h4 className="py-4 text-teal-600">Frontend Languages</h4>
-              <p className="text-gray-800 py-1">ReactJs</p>
-              <p className="text-gray-800 py-1">NextJs</p>
-              <p className="text-gray-800 py-1">AngularJr</p>
+              <p className="text-gray-800 py-1">ReactJs (NextJs)</p>
+              <p className="text-gray-800 py-1">AngularJs</p>
               <p className="text-gray-800 py-1">Html & Css</p>
               <p className="text-gray-800 py-1">TailwindCss</p>
               <p className="text-gray-800 py-1">Material-UI</p>
@@ -137,7 +131,7 @@ function App() {
                Tools that helps me leveling up my tech journey.
               </p>
               <h4 className="py-4 text-teal-600">Tools I Use</h4>
-              <p className="text-gray-800 py-1">VS Coder</p>
+              <p className="text-gray-800 py-1">VS Code</p>
               <p className="text-gray-800 py-1">Swagger</p>
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Postman</p>
@@ -197,7 +191,7 @@ function App() {
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1">
+            {/* <div className="basis-1/3 flex-1">
             <a href="https://ubu-afro-nft.webflow.io/">
                 <img
                   className="rounded-lg object-cover"
@@ -207,7 +201,7 @@ function App() {
                   src={Ubu}
                 />
               </a>
-            </div>
+            </div> */}
           </div>
         </section>
       </main>
