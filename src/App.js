@@ -8,7 +8,7 @@ import consulting from "../src/public/consulting.png";
 import Image3 from "../src/public/kryptoBridge.png";
 import Image4 from "../src/public/Tokenomic.png";
 import fumba from "../src/public/fumba.png";
-import Learn from "../src/public/Learn.png";
+import Airbnb from "../src/public/Airbnb-Clone.png";
 import Ubu from "../src/public/Ubu.png";
 import web5 from "../src/public/web5.png";
 import web6 from "../src/public/web6.png";
@@ -187,7 +187,7 @@ function App() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                  src={Learn}
+                  src={Airbnb}
                 />
               </a>
             </div>
